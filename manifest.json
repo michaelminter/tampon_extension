@@ -8,10 +8,11 @@
     "default_title": "Tampon"
   },
   "background": {
-    "scripts": ["listener.js"]
+    "scripts": ["jquery.js", "listener.js"]
   },
   "permissions": [
-    "tabs"
+    "tabs",
+    "http://fracture.it/"
   ],
   "icons": {
     "48": "tampon_48.png",
